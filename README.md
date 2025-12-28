@@ -1,15 +1,17 @@
-Conditional Statements in Python: Even or Odd Checker
-🎯 Aim
-To write a Python program to check whether the given number is even or odd using if...else statements.
+# Conditional Statements in Python: Even or Odd Checker
 
-🧠 Algorithm
-Get an input from the user.
-Convert the input to an integer and store it in a variable a.
-Use the modulo operator % to check if a % 2 == 0.
-If true, print "EVEN".
-Else, print "ODD".
-End the program.
-🧾 Program
+## 🎯 Aim
+To write a Python program to check whether the given number is **even** or **odd** using `if...else` statements.
+
+## 🧠 Algorithm
+1. Get an input from the user.
+2. Convert the input to an integer and store it in a variable `a`.
+3. Use the modulo operator `%` to check if `a % 2 == 0`.
+   - If true, print `"EVEN"`.
+   - Else, print `"ODD"`.
+4. End the program.
+
+## 🧾 Program
 ~~~
 a=int(input())
 if(a%2==0):
@@ -17,26 +19,29 @@ if(a%2==0):
 else:
     print("ODD")
 ~~~
-Output
-<img width="554" height="449" alt="image" src="https://github.com/user-attachments/assets/73ebd9a1-d1c0-4ac1-860a-7f017a3a5b17" />
+## Output
+<img width="557" height="459" alt="image" src="https://github.com/user-attachments/assets/f18f3d52-3cf7-4efc-8f54-bd66fae4b020" />
 
-Result
+## Result
 Thus,the Python program to check whether the given number is even or odd using if...else statements is created successfully.
 
-Ex 1:Datatypes-Boolean Expression Evaluation in Python
-🎯 Aim
-To write a Python program that evaluates and prints the results of boolean and arithmetic expressions involving True and False.
 
-🧠 Algorithm
-Set variable a to the result of the expression 0 == True.
-Set variable b to the result of the expression False == False.
-Set variable c to the result of the expression True + True.
-Set variable d to the result of the expression False + 9.
-Print the value of a with the label "a is".
-Print the value of b with the label "b is".
-Print the value of c with the label "c:".
-Print the value of d with the label "d:".
-💻 Program
+# Ex 1:Datatypes-Boolean Expression Evaluation in Python
+
+## 🎯 Aim
+To write a Python program that evaluates and prints the results of boolean and arithmetic expressions involving `True` and `False`.
+
+## 🧠 Algorithm
+1. Set variable `a` to the result of the expression `0 == True`.
+2. Set variable `b` to the result of the expression `False == False`.
+3. Set variable `c` to the result of the expression `True + True`.
+4. Set variable `d` to the result of the expression `False + 9`.
+5. Print the value of `a` with the label "a is".
+6. Print the value of `b` with the label "b is".
+7. Print the value of `c` with the label "c:".
+8. Print the value of `d` with the label "d:".
+
+## 💻 Program
 ~~~
 a=(0==True)
 b=(False==False)
@@ -47,45 +52,51 @@ print(f"b is {b}")
 print(f"c: {c}")
 print(f"d: {d}")
 ~~~
-Output
-<img width="819" height="498" alt="image" src="https://github.com/user-attachments/assets/d2304494-edec-4da2-9d72-a4f484d4de70" />
+## Output
+<img width="657" height="397" alt="image" src="https://github.com/user-attachments/assets/e92f4fd3-fef6-46c1-a2ab-98ee10cc9618" />
 
-image
-Result
+## Result
 Thus, to write a python program that evaluates and prints the results of boolean and arithmetic expressions involving True and False is compiled and the output is verified successfully.
 
-Datatypes-Character Literal in Python
-🎯 Aim
-To write a Python program that prints the characters 'T' and 'a' using character literals.
+# Datatypes-Character Literal in Python
 
-🧠 Algorithm
-Print the character 'T'.
-Print the character 'a'.
-🧾 Program
+## 🎯 Aim
+To write a Python program that prints the characters `'T'` and `'a'` using character literals.
+
+## 🧠 Algorithm
+1. Print the character `'T'`.
+2. Print the character `'a'`.
+
+## 🧾 Program
 ~~~
 char1='T'
 char2='a'
 print(char1)
 print(char2)
-~~~
-Output
-<img width="1175" height="458" alt="image" src="https://github.com/user-attachments/assets/9e10a12b-86bc-4899-a51d-34e87afd8f08" />
 
-Result
+~~~
+
+## Output
+<img width="927" height="367" alt="image" src="https://github.com/user-attachments/assets/1931b5dd-6ff8-423c-9e0c-c26ea3bb8c5c" />
+
+
+## Result
 Therefore to write a Python program that prints the characters 'T' and 'a' using character literals is compiled and the output is verified successfully.
 
-🧮 Datatypes-Complex Number Creation in Python
-🎯 Aim
+# 🧮 Datatypes-Complex Number Creation in Python
+
+## 🎯 Aim
 To write a Python program that reads two integers, creates a complex number using them, and then prints the complex number along with its real and imaginary parts.
 
-🧠 Algorithm
-Read an integer input from the user and assign it to the variable a (real part).
-Read another integer input from the user and assign it to the variable b (imaginary part).
-Create a complex number x using the complex(a, b) function.
-Print the complex number x.
-Print the real part of x using x.real.
-Print the imaginary part of x using x.imag.
-💻 Program
+## 🧠 Algorithm
+1. Read an integer input from the user and assign it to the variable `a` (real part).
+2. Read another integer input from the user and assign it to the variable `b` (imaginary part).
+3. Create a complex number `x` using the `complex(a, b)` function.
+4. Print the complex number `x`.
+5. Print the real part of `x` using `x.real`.
+6. Print the imaginary part of `x` using `x.imag`.
+
+## 💻 Program
 ~~~
 a=int(input()) 
 
@@ -99,10 +110,11 @@ print(x.real)
 
 print(x.imag)
 ~~~
-Output
-<img width="763" height="442" alt="image" src="https://github.com/user-attachments/assets/ad09816f-1b60-451f-9ace-a152fe4d1d9f" />
 
-Result
+## Output
+<img width="619" height="348" alt="image" src="https://github.com/user-attachments/assets/9b25907b-cd1a-4752-bb67-0ea7aa784c7e" />
+
+## Result
 Thus the prgram has been successfully executed.
 
 # Datatypes-Read and Print a String in Python
